@@ -96,12 +96,12 @@ stopsignal=TERM
 ```
 sudo supervisorctl reread
 sudo supervisorctl update
-sudo supervisorctl start ev_bot
+sudo supervisorctl start Evkusa_bot
 ```
 
 Проверить статус:
 ```
-sudo supervisorctl status ev_bot
+sudo supervisorctl status Evkusa_bot
 ```
 ### 7. Старт Бота
 Найдите бота в Telegram по имени, которое вы указали при создании (у BotFather).
