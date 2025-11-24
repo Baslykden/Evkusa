@@ -5,11 +5,9 @@ from openpyxl import load_workbook
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-from config import BOT_TOKEN
+from config import BOT_TOKEN, BASE_DIR
 from ev_pptx import build_presentation
 
-
-BASE_DIR = Path("/root/BOTS/CLIENT/EV")
 WORK_DIR = BASE_DIR / "work"
 WORK_DIR.mkdir(parents=True, exist_ok=True)
 
